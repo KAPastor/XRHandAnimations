@@ -22,7 +22,7 @@ public class HandAnim : MonoBehaviour
   private int m_animParamIndexPose = -1;
   private Collider[] m_colliders = null;
 
-  private float anim_frames = 4f;
+  public float anim_frames = 4f;
   private float grip_state = 0f;
   private float trigger_state = 0f;
   private float triggerCap_state = 0f;
